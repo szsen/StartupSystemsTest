@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1A52721BF54145002FCFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A52711BF54145002FCFF8 /* AppDelegate.swift */; };
+		AB1A52771BF54145002FCFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1A52751BF54145002FCFF8 /* Main.storyboard */; };
+		AB1A52791BF54145002FCFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1A52781BF54145002FCFF8 /* Assets.xcassets */; };
+		AB1A527C1BF54145002FCFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1A527A1BF54145002FCFF8 /* LaunchScreen.storyboard */; };
+		AB1A52841BF55963002FCFF8 /* StudentCollectionsViewControllerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A52831BF55963002FCFF8 /* StudentCollectionsViewControllerCollectionViewController.swift */; };
+		AB1A52861BF5597F002FCFF8 /* StoriesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A52851BF5597F002FCFF8 /* StoriesCollectionViewController.swift */; };
+		AB1A52881BF5599B002FCFF8 /* StoryImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A52871BF5599B002FCFF8 /* StoryImageViewController.swift */; };
+		AB1A528B1BF58340002FCFF8 /* teddyrec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1A528A1BF58340002FCFF8 /* teddyrec.jpg */; };
+		AB1A528D1BF58359002FCFF8 /* teddymon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1A528C1BF58359002FCFF8 /* teddymon.jpg */; };
+		AB1A528F1BF58366002FCFF8 /* teddylay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1A528E1BF58366002FCFF8 /* teddylay.jpg */; };
+		AB1A52931BF5A546002FCFF8 /* teddylin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1A52921BF5A546002FCFF8 /* teddylin.jpg */; };
+		AB1A52951BF5A54F002FCFF8 /* teddycab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1A52941BF5A54F002FCFF8 /* teddycab.jpg */; };
+		AB6186641BF7839900940CC6 /* StudentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6186631BF7839900940CC6 /* StudentCollectionViewCell.swift */; };
+		AB6186661BF78DEE00940CC6 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6186651BF78DEE00940CC6 /* StoryCollectionViewCell.swift */; };
+		AB6186681BF948C000940CC6 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6186671BF948C000940CC6 /* Story.swift */; };
+		AB61866A1BF97EAF00940CC6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6186691BF97EAF00940CC6 /* SwiftyJSON.swift */; };
+		AB6186721BFB001300940CC6 /* SocialStoryBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6186711BFB001300940CC6 /* SocialStoryBuilderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB6186741BFB001300940CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1A52661BF54145002FCFF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB1A526D1BF54145002FCFF8;
+			remoteInfo = SocialStoryBuilder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB1A526E1BF54145002FCFF8 /* SocialStoryBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialStoryBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1A52711BF54145002FCFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB1A52761BF54145002FCFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB1A52781BF54145002FCFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB1A527B1BF54145002FCFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB1A527D1BF54145002FCFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1A52831BF55963002FCFF8 /* StudentCollectionsViewControllerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentCollectionsViewControllerCollectionViewController.swift; path = ../StudentCollectionsViewControllerCollectionViewController.swift; sourceTree = "<group>"; };
+		AB1A52851BF5597F002FCFF8 /* StoriesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoriesCollectionViewController.swift; path = ../StoriesCollectionViewController.swift; sourceTree = "<group>"; };
+		AB1A52871BF5599B002FCFF8 /* StoryImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryImageViewController.swift; path = ../StoryImageViewController.swift; sourceTree = "<group>"; };
+		AB1A528A1BF58340002FCFF8 /* teddyrec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddyrec.jpg; sourceTree = "<group>"; };
+		AB1A528C1BF58359002FCFF8 /* teddymon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddymon.jpg; sourceTree = "<group>"; };
+		AB1A528E1BF58366002FCFF8 /* teddylay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddylay.jpg; sourceTree = "<group>"; };
+		AB1A52921BF5A546002FCFF8 /* teddylin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddylin.jpg; sourceTree = "<group>"; };
+		AB1A52941BF5A54F002FCFF8 /* teddycab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teddycab.jpg; sourceTree = "<group>"; };
+		AB6186631BF7839900940CC6 /* StudentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB6186651BF78DEE00940CC6 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB6186671BF948C000940CC6 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		AB6186691BF97EAF00940CC6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		AB61866F1BFB001300940CC6 /* SocialStoryBuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialStoryBuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6186711BFB001300940CC6 /* SocialStoryBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialStoryBuilderTests.swift; sourceTree = "<group>"; };
+		AB6186731BFB001300940CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1A526B1BF54145002FCFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB61866C1BFB001300940CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1A52651BF54145002FCFF8 = {
+			isa = PBXGroup;
+			children = (
+				AB1A52701BF54145002FCFF8 /* SocialStoryBuilder */,
+				AB6186701BFB001300940CC6 /* SocialStoryBuilderTests */,
+				AB1A526F1BF54145002FCFF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1A526F1BF54145002FCFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A526E1BF54145002FCFF8 /* SocialStoryBuilder.app */,
+				AB61866F1BFB001300940CC6 /* SocialStoryBuilderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1A52701BF54145002FCFF8 /* SocialStoryBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A52711BF54145002FCFF8 /* AppDelegate.swift */,
+				AB6186671BF948C000940CC6 /* Story.swift */,
+				AB1A52831BF55963002FCFF8 /* StudentCollectionsViewControllerCollectionViewController.swift */,
+				AB6186631BF7839900940CC6 /* StudentCollectionViewCell.swift */,
+				AB1A52851BF5597F002FCFF8 /* StoriesCollectionViewController.swift */,
+				AB6186651BF78DEE00940CC6 /* StoryCollectionViewCell.swift */,
+				AB1A52871BF5599B002FCFF8 /* StoryImageViewController.swift */,
+				AB6186691BF97EAF00940CC6 /* SwiftyJSON.swift */,
+				AB1A52751BF54145002FCFF8 /* Main.storyboard */,
+				AB1A52781BF54145002FCFF8 /* Assets.xcassets */,
+				AB1A527A1BF54145002FCFF8 /* LaunchScreen.storyboard */,
+				AB1A527D1BF54145002FCFF8 /* Info.plist */,
+				AB1A52891BF58305002FCFF8 /* Pics */,
+			);
+			path = SocialStoryBuilder;
+			sourceTree = "<group>";
+		};
+		AB1A52891BF58305002FCFF8 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				AB1A528A1BF58340002FCFF8 /* teddyrec.jpg */,
+				AB1A528C1BF58359002FCFF8 /* teddymon.jpg */,
+				AB1A528E1BF58366002FCFF8 /* teddylay.jpg */,
+				AB1A52921BF5A546002FCFF8 /* teddylin.jpg */,
+				AB1A52941BF5A54F002FCFF8 /* teddycab.jpg */,
+			);
+			name = Pics;
+			sourceTree = "<group>";
+		};
+		AB6186701BFB001300940CC6 /* SocialStoryBuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB6186711BFB001300940CC6 /* SocialStoryBuilderTests.swift */,
+				AB6186731BFB001300940CC6 /* Info.plist */,
+			);
+			path = SocialStoryBuilderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1A526D1BF54145002FCFF8 /* SocialStoryBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1A52801BF54145002FCFF8 /* Build configuration list for PBXNativeTarget "SocialStoryBuilder" */;
+			buildPhases = (
+				AB1A526A1BF54145002FCFF8 /* Sources */,
+				AB1A526B1BF54145002FCFF8 /* Frameworks */,
+				AB1A526C1BF54145002FCFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialStoryBuilder;
+			productName = SocialStoryBuilder;
+			productReference = AB1A526E1BF54145002FCFF8 /* SocialStoryBuilder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB61866E1BFB001300940CC6 /* SocialStoryBuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6186781BFB001300940CC6 /* Build configuration list for PBXNativeTarget "SocialStoryBuilderTests" */;
+			buildPhases = (
+				AB61866B1BFB001300940CC6 /* Sources */,
+				AB61866C1BFB001300940CC6 /* Frameworks */,
+				AB61866D1BFB001300940CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6186751BFB001300940CC6 /* PBXTargetDependency */,
+			);
+			name = SocialStoryBuilderTests;
+			productName = SocialStoryBuilderTests;
+			productReference = AB61866F1BFB001300940CC6 /* SocialStoryBuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1A52661BF54145002FCFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sonia Sen";
+				TargetAttributes = {
+					AB1A526D1BF54145002FCFF8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RMB83YZHH2;
+					};
+					AB61866E1BFB001300940CC6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = RMB83YZHH2;
+						TestTargetID = AB1A526D1BF54145002FCFF8;
+					};
+				};
+			};
+			buildConfigurationList = AB1A52691BF54145002FCFF8 /* Build configuration list for PBXProject "SocialStoryBuilder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1A52651BF54145002FCFF8;
+			productRefGroup = AB1A526F1BF54145002FCFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1A526D1BF54145002FCFF8 /* SocialStoryBuilder */,
+				AB61866E1BFB001300940CC6 /* SocialStoryBuilderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1A526C1BF54145002FCFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1A527C1BF54145002FCFF8 /* LaunchScreen.storyboard in Resources */,
+				AB1A528B1BF58340002FCFF8 /* teddyrec.jpg in Resources */,
+				AB1A52791BF54145002FCFF8 /* Assets.xcassets in Resources */,
+				AB1A528D1BF58359002FCFF8 /* teddymon.jpg in Resources */,
+				AB1A52931BF5A546002FCFF8 /* teddylin.jpg in Resources */,
+				AB1A528F1BF58366002FCFF8 /* teddylay.jpg in Resources */,
+				AB1A52771BF54145002FCFF8 /* Main.storyboard in Resources */,
+				AB1A52951BF5A54F002FCFF8 /* teddycab.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB61866D1BFB001300940CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1A526A1BF54145002FCFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6186681BF948C000940CC6 /* Story.swift in Sources */,
+				AB6186641BF7839900940CC6 /* StudentCollectionViewCell.swift in Sources */,
+				AB1A52881BF5599B002FCFF8 /* StoryImageViewController.swift in Sources */,
+				AB61866A1BF97EAF00940CC6 /* SwiftyJSON.swift in Sources */,
+				AB1A52861BF5597F002FCFF8 /* StoriesCollectionViewController.swift in Sources */,
+				AB1A52721BF54145002FCFF8 /* AppDelegate.swift in Sources */,
+				AB6186661BF78DEE00940CC6 /* StoryCollectionViewCell.swift in Sources */,
+				AB1A52841BF55963002FCFF8 /* StudentCollectionsViewControllerCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB61866B1BFB001300940CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6186721BFB001300940CC6 /* SocialStoryBuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB6186751BFB001300940CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB1A526D1BF54145002FCFF8 /* SocialStoryBuilder */;
+			targetProxy = AB6186741BFB001300940CC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB1A52751BF54145002FCFF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1A52761BF54145002FCFF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB1A527A1BF54145002FCFF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1A527B1BF54145002FCFF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1A527E1BF54145002FCFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AB1A527F1BF54145002FCFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1A52811BF54145002FCFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialStoryBuilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.startupsystems.SocialStoryBuilder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB1A52821BF54145002FCFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialStoryBuilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.startupsystems.SocialStoryBuilder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB6186761BFB001300940CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialStoryBuilderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.startupsystems.SocialStoryBuilderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialStoryBuilder.app/SocialStoryBuilder";
+			};
+			name = Debug;
+		};
+		AB6186771BFB001300940CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialStoryBuilderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.startupsystems.SocialStoryBuilderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialStoryBuilder.app/SocialStoryBuilder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1A52691BF54145002FCFF8 /* Build configuration list for PBXProject "SocialStoryBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1A527E1BF54145002FCFF8 /* Debug */,
+				AB1A527F1BF54145002FCFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1A52801BF54145002FCFF8 /* Build configuration list for PBXNativeTarget "SocialStoryBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1A52811BF54145002FCFF8 /* Debug */,
+				AB1A52821BF54145002FCFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6186781BFB001300940CC6 /* Build configuration list for PBXNativeTarget "SocialStoryBuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6186761BFB001300940CC6 /* Debug */,
+				AB6186771BFB001300940CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1A52661BF54145002FCFF8 /* Project object */;
+}
